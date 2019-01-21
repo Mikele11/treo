@@ -39,3 +39,29 @@ body {
 button>a{
 	color:white !important;
 }
+.searchLineInput {
+  width: 30%;
+  border-radius: 10px;
+  margin: 10px 0px 20px 0px;
+}
+
+/**Table*/
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+tr:nth-child(2n) {
+  background: #f0f0f0; /* Цвет фона */
+} 
+table {
+  border-collapse: collapse;
+  height: 200px;
+}
+thead {
+  background: lightgray;
+}
+tbody {
+  height: 80px;
+  overflow: auto;
+}

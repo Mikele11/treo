@@ -94,7 +94,7 @@ class App extends Component {
           <div class="panel-body">
             <h4><Link to="/create"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Add Product</Link></h4>
             <div>
-              <input type="text" placeholder="Search" onChange={this.filterList}/>
+              <input className="searchLineInput" type="text" placeholder="Search" onChange={this.filterList}/>
                 <table>
                   <thead>
                     <tr>
